@@ -34,7 +34,7 @@ Este documento registra los pasos realizados en el desarrollo de **appMovilNotas
 	
 
 5. **Creación de Documentación Inicial**
-	- Fecha: [Inserta fecha aproximada, por ejemplo, 2025-05-22]
+	- Fecha: [2025-05-22]
 	Actual README.md con:
 	Descripción del proyecto.
 	Funciones (notas con títulos, Markdown/PDF, categorías, notas de voz, temas claro/oscuro, títulos colapsables, etiquetas, sincronización en la nube, interfaz rápida, reordenación de títulos).
@@ -46,11 +46,15 @@ Este documento registra los pasos realizados en el desarrollo de **appMovilNotas
 	Iniciar vitacora.md (este archivo) para registrar el progreso.
 	
 6. **Verificación de Python**
-	- Fecha: [Inserta fecha aproximada, por ejemplo, 2025-05-22]
-	Confirmado que Python 3.8+ está instalado en Arch Linux:
-	bash
-	```python
+	- Fecha: [2025-05-22]
+	Confirmado que Python 3.8+ está instalado en Arch Linux:	
+    ```bash
 	python --version
 	```
 	No instalación Kivy aún, pero plano hacerlo en el siguiente paso para comenzar a desarrollar la interfaz.
-``
+
+7. **Creacion entorno virtual python**
+    - Fecha: [23-05-2025]
+    ```bash
+    python -m venv entornoVirtualParaApp
+    ```
