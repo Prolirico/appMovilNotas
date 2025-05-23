@@ -59,3 +59,4 @@ htmlcov/
 # Otros archivos generados
 *.bak
 *.tmp
+.buildozer/
