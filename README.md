@@ -18,14 +18,14 @@ A mobile notes application built with Python and Kivy, allowing users to create,
 	See `docs/instrucciones.md` for detailed setup and development instructions.
 
 ## Project Structure
-	- `src/`: Python source code (models, UI, utilities, audio).
+	- `src/`: Código fuente Python (modelos, interfaz de usuario, utilidades, audio).
 	- `kv/`: Kivy UI files for declarative layouts.
 	- `assets/`: Static assets (fonts, icons, audio).
-	- `data/`: Runtime data (notes, categories, settings).
+	- `data/`: Datos de tiempo de ejecución (notas, categorías, ajustes).
 	- `docs/`: Documentation (instructions, architecture, changelog).
 	- `tests/`: Unit tests for code quality.
 appMovilNotas/
-├── src/                    # Source code for the app
+├── src/                    # Código fuente de la aplicación
 │   ├── main.py             # Entry point (Kivy app initialization)
 │   ├── models/             # Data models (Note, Category, CollapsibleSection)
 │   │   ├── note.py
@@ -38,7 +38,7 @@ appMovilNotas/
 │   │   └── screens/        # Screen layouts (e.g., main screen, note view)
 │   │       ├── main_screen.py
 │   │       └── note_screen.py
-│   ├── utils/              # Utility functions (e.g., JSON, Markdown, PDF)
+│   ├── utils/              # Funciones de utilidad (por ejemplo, JSON, Markdown, PDF)
 │   │   ├── storage.py
 │   │   ├── markdown_parser.py
 │   │   └── pdf_export.py
@@ -68,9 +68,9 @@ appMovilNotas/
 ├── pendientes.md
 ├── vitacora.md             # Proyecto paso a paso
 ├── .gitignore              # Git ignore file
-├── buildozer.spec          # Buildozer config for mobile builds
+├── buildozer.spec          # Configuración de Buildozer para construcciones móviles
 ├── requirements.txt        # Python dependencies
-└── LICENSE                 # License file (e.g., MIT)
+└── LICENSE                 # License file (e.g., PRO)
 
 ## Requerimientos
 	- **Crear notas con títulos personalizados**: Permitir a los usuarios asignar un título único a cada nota para identificarla fácilmente.
@@ -137,4 +137,4 @@ appMovilNotas/
 Contributions are welcome! Please read `docs/instrucciones.md` for development guidelines and submit pull requests on GitHub.
 
 ## License
-MIT License (see `LICENSE`).
+PRO License (see `LICENSE`).
