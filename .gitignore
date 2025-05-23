@@ -1,0 +1,61 @@
+# Archivos y directorios generados por Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Entornos virtuales
+venv/
+env/
+.env/
+.venv/
+
+# Archivos de Buildozer (compilaciones para Android/iOS)
+.bin/
+.gen/
+buildozer/
+*.apk
+*.aab
+*.ipa
+
+# Archivos de caché y temporales
+*.cache
+*.log
+*.pid
+*.swp
+*~
+
+# Archivos de configuración local
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Datos sensibles o generados
+data/*.json.bak
+data/*.db
+data/local_config.json
+
+# Directorios de compilación y empaquetado
+.gradle/
+build/
+out/
+
+# Archivos de pruebas y cobertura
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+
+# Otros archivos generados
+*.bak
+*.tmp
