@@ -65,6 +65,7 @@ appMovilNotas/
 │   ├── test_markdown.py
 │   └── test_audio.py
 ├── README.md               # Project overview (moved to root)
+├── pendientes.md
 ├── vitacora.md             # Proyecto paso a paso
 ├── .gitignore              # Git ignore file
 ├── buildozer.spec          # Buildozer config for mobile builds
