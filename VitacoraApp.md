@@ -88,4 +88,7 @@ Este documento registra los pasos realizados en el desarrollo de **appMovilNotas
 	```
 		
 9. 	**Verificar instalacion de Kivy**
-	- 
+	- Ejecutar:
+	```
+	python src/main.py
+	```
