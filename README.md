@@ -15,7 +15,7 @@ A mobile notes application built with Python and Kivy, allowing users to create,
 	source pythonVirtual/bin/activate
 	Para windows(ejecutar en carpeta raiz): ```
 											python -m venv venv
-											.\venv|Scripts|activate
+											.\venv\Scripts\activate
 											```
 	3. Install dependencies: `pip install -r requirements.txt`
 	4. Run the app: `python src/main.py`
