@@ -5,12 +5,12 @@ Este documento registra los pasos realizados en el desarrollo de **appMovilNotas
 ## Pasos Realizados
 
 1. **Creación del Repositorio en GitHub**  
-   - Fecha: [2025-05-22]  
+   - Fecha: [22-05-2025]  
    - Creé un repositorio en GitHub llamado `appMovilNotas` en `https://github.com/Prolirico/appMovilNotas.git`.  
    - Configuré el repositorio con una licencia MIT (`LICENSE`) y un `README.md` inicial describiendo el proyecto.
 
 2. **Clonación del Repositorio**  
-    - Fecha: [2025-05-22]  
+    - Fecha: [22-05-2025]  
 	- Cloné el repositorio en mi máquina local (Arch Linux) en `/home/axel/Documentos/ProyectosPersonales/`:  
      ```bash
      cd ~/Documentos/ProyectosPersonales
@@ -32,9 +32,8 @@ Este documento registra los pasos realizados en el desarrollo de **appMovilNotas
 4. **Configuración de .gitignore**
 	INFORMACION en /appMovilNotas/README.md
 	
-
 5. **Creación de Documentación Inicial**
-	- Fecha: [2025-05-22]
+	- Fecha: [22-05-2025]
 	Actual README.md con:
 	Descripción del proyecto.
 	Funciones (notas con títulos, Markdown/PDF, categorías, notas de voz, temas claro/oscuro, títulos colapsables, etiquetas, sincronización en la nube, interfaz rápida, reordenación de títulos).
@@ -46,7 +45,7 @@ Este documento registra los pasos realizados en el desarrollo de **appMovilNotas
 	Iniciar vitacora.md (este archivo) para registrar el progreso.
 	
 6. **Verificación de Python**
-	- Fecha: [2025-05-22]
+	- Fecha: [23-05-2025]
 	Confirmado que Python 3.8+ está instalado en Arch Linux:	
     ```bash
 	python --version
@@ -58,3 +57,35 @@ Este documento registra los pasos realizados en el desarrollo de **appMovilNotas
     ```bash
     python -m venv entornoVirtualParaApp
     ```
+    
+8. **Instalar dependencias de Kivy**
+	- Fecha: [23-05-2025]
+	- Para corroborar las dependencias usamos:
+	```bash
+	pip install kivy --no-deps --dry-run
+	pip install kivymd --no-deps --dry-run
+	pip install pyaudio --no-deps --dry-run
+	pip install reportlab --no-deps --dry-run
+	```
+	Alternativamente, consulte las páginas de PyPI:
+	Kivy: https://pypi.org/project/Kivy/
+	KivyMD: https://pypi.org/project/kivymd/
+	PyAudio: https://pypi.org/project/PyAudio/
+	ReportLab: https://pypi.org/project/reportlab/
+	- En el archivo requirements.txt ubicada en la carpeta raiz
+	pondremos lo siguiente:
+	kivy==2.3.1
+	kivymd==1.2.0
+	pyaudio==0.2.14
+	reportlab==4.4.1
+	- ¿Porque estas dependencias?
+	kivy y kivymd para la interfaz de usuario móvil.
+	pyaudio para la grabación de audio (src/audio/recorder.py).
+	reportlab para la generación de PDF (src/utils/pdf_export.py).
+	- Instalar las dependencias
+	```bash
+	pip install -r requirements.txt
+	```
+		
+9. 	**Verificar instalacion de Kivy**
+	- 
