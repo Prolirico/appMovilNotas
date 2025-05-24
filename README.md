@@ -12,6 +12,8 @@ A mobile notes application built with Python and Kivy, allowing users to create,
 ## Getting Started
 	1. Clone the repository: `git clone https://github.com/Prolirico/appMovilNotas.git`
 	2. Set up a virtual environment: `python -m venv .venv && source .venv/bin/activate`
+	source pythonVirtual/bin/activate
+	Para windows(ejecutar en carpeta raiz): ```.\pythonVirtual\Scripts\activate```
 	3. Install dependencies: `pip install -r requirements.txt`
 	4. Run the app: `python src/main.py`
 
@@ -138,3 +140,4 @@ Contributions are welcome! Please read `docs/instrucciones.md` for development g
 
 ## License
 PRO License (see `LICENSE`).
+.\pythonVirtual\Scripts\activate
